@@ -1,5 +1,14 @@
 import java.util.*;
 
+/**
+ * pre-, in-, post-order in iterative and recursive methods   
+ * 
+ * level-order with BFS method
+ * 
+ * @author Sulong
+ *
+ */
+
 public class TreeTraversal {
 
     // preOrder Recursion and Iteration
