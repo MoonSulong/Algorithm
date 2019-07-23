@@ -7,6 +7,8 @@
 
 public class Sort {
     //Insertion sort => card game => insert right number into its position
+    // Time: O(n^2)
+    // Space: O(1)
     public static int[] insertionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             for (int j = i; j > 0; j--) {
@@ -18,7 +20,9 @@ public class Sort {
         return array;
     }
     
-    // Selection sort => find the global minimum and swap 
+    // Selection sort => find the global minimum and swap
+    // Time: O(n^2)
+    // Space: O(1)
     public static int[] selectionSort(int[] array) {
         for (int i = 0; i < array.length - 1; i++) {
             int min = array[i];
@@ -33,6 +37,8 @@ public class Sort {
     }
     
     // Merge Sort => divide into individual and merge according to ascending order 
+    // Time: O(nlogn)
+    // Space: O(n)
     public static int[] mergeSort(int[] array) {
         int[] helper = new int[array.length];
         mergeSort(array, helper, 0, array.length-1);
@@ -65,6 +71,8 @@ public class Sort {
         }
     }
     
+    // Time: O(nlogn) -> O(n^2)
+    // Space: O(logn) -> O(n)
     public static int[] quickSort(int[] array) {
         quickSort(array, 0, array.length - 1);
         return array;
