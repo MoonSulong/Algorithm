@@ -5,3 +5,4 @@ This is a folder storing practices for different data structures and algorithms
 2. Tree to String with Parentheses(recursive, iterative)
 3. Sort (insertion, selection, merge, quick, rainbow)
 4. DP (min cut palindrome)
+5. DFS (NQuees)
