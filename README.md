@@ -3,6 +3,8 @@ This is a folder storing practices for different data structures and algorithms
 
 1. Tree traversal (recursive, iterative, and bfs method)
 2. Tree to String with Parentheses(recursive, iterative)
-3. Sort (insertion, selection, merge, quick, rainbow)
-4. DP (min cut palindrome)
-5. DFS (NQuees)
+3. Tree path to sum(leaf to leaf, node to node, single path target...)
+4. Sort (insertion, selection, merge, quick, rainbow)
+5. DP (min cut palindrome)
+6. DFS (NQuees)
+
