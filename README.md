@@ -6,5 +6,5 @@ This is a folder storing practices for different data structures and algorithms
 3. Tree path to sum(leaf to leaf, node to node, single path target...)
 4. Sort (insertion, selection, merge, quick, rainbow)
 5. DP (min cut palindrome)
-6. DFS (NQuees)
+6. DFS (NQuees, money change, factor combinations)
 
