@@ -1,7 +1,7 @@
 /*
  * DP: minimum cut palindrome
  * 
- * cut[i] -> the fewest cut for a string with length = i
+ * cut[i] -> the fewest cut for a string with length = i + 1
  * 
  * [j, i] from j to i is palindrome need two conditions
  * 1. array[i] = array[j] 
